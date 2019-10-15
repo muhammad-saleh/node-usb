@@ -1,4 +1,4 @@
-var usb = exports = module.exports = require('bindings')('usb_bindings');
+var usb = exports = module.exports = require('./build/Release/usb_bindings.node');
 var events = require('events')
 var util = require('util')
 
