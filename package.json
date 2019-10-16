@@ -2,6 +2,10 @@
   "name": "usb",
   "description": "Library to access USB devices",
   "version": "1.6.0",
+  "private": true,
+  "workspaces": {
+    "nohoist": ["**"]
+  },
   "engines": {
     "node": ">=6"
   },
