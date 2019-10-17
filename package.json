@@ -34,7 +34,6 @@
     "url": "https://github.com/tessel/node-usb.git"
   },
   "scripts": {
-    "install": "prebuild-install --verbose || node-gyp rebuild",
     "prebuild": "prebuild --force --strip --verbose",
     "test": "mocha --require coffeescript/register --grep Module test/*",
     "full-test": "mocha --require coffeescript/register test/*",
@@ -42,8 +41,7 @@
   },
   "dependencies": {
     "bindings": "^1.4.0",
-    "nan": "2.13.2",
-    "prebuild-install": "^5.2.4"
+    "nan": "2.13.2"
   },
   "resolutions": {
     "**/nan": "2.13.2"
